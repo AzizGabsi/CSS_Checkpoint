@@ -1,0 +1,90 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+  
+  
+
+
+#nav-bar li {
+  display: inline-block;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin-right: 0px;
+  font-size: 20px;
+  margin-top: 16px;
+  margin-left: 16px;
+  border-radius: 0%;
+  position:;
+
+}
+
+#nav-bar {
+  background:rgba(29, 104, 241, 0.74);
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  
+  
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 3px;
+}
+
+
+a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 3px;
+
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: rgb(126, 163, 231);
+  padding: 3px;
+  border-radius: 5px;
+  transition: .2s;
+}
+
+a:active {
+  color: blue;
+  text-decoration: none;
+  padding: 3px;
+}
+
+
+
+#logo {
+  display: flex;
+  position: static;
+
+}
+
+body h1,h4,p,label,b,ol,ul {
+color: rgb(255, 255, 255);
+text-align: center;
+}
+
+body img {
+display: block;
+margin: auto;
+}
+
+body fieldset {
+  display: block;
+  text-align: center;
+}
+
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}

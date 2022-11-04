@@ -1,18 +1,20 @@
 
-body {
+.background {
   padding: 0;
   margin: 0;
+  margin-left: 0;
+  width: 100vw;
+  height:100vh;
   background-image: url("background.jpg");
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   
 }
   
-  
 
 
-#nav-bar li {
+
+.nav-bar li {
   display: inline-block;
   font-family: "Roboto";
   font-weight: 500;
@@ -21,15 +23,16 @@ body {
   margin-top: 16px;
   margin-left: 16px;
   border-radius: 0%;
-  position:;
+  
 
 }
 
-#nav-bar {
-  background:rgba(29, 104, 241, 0.74);
+.nav-bar {
+  background:rgba(46, 82, 184, 0.63);
   margin: 0;
   padding: 0;
   height: 60px;
+  text-align: center;
   
   
 }
@@ -57,11 +60,10 @@ a:hover {
 }
 
 a:active {
-  color: blue;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 3px;
 }
-
 
 
 #logo {
@@ -70,14 +72,17 @@ a:active {
 
 }
 
-body h1,h4,p,label,b,ol,ul {
+body h1,h4,label,b,p {
 color: rgb(255, 255, 255);
 text-align: center;
+font-family: "Roboto";
 }
 
-body img {
-display: block;
-margin: auto;
+.vid{
+display: inline-block;
+margin-left: 5%;
+margin-top: 5%;
+border-radius: 25px;
 }
 
 body fieldset {
@@ -85,6 +90,92 @@ body fieldset {
   text-align: center;
 }
 
-.bg-overlay {
-  background: rgba(0, 0, 0, 0.5);
+
+body h2 {
+  text-align: center;
+  margin-top: 70px;
+  font-family: "roboto";
+  font-size: 50px;
+
+}
+
+.contact-form {
+  width: 50vw;
+  height: 25vh;
+  margin: auto;
+  margin-top: 20vh;
+}
+
+.portrait {
+  display: block;
+  margin: auto ;
+  margin-top: 5%;
+  border-radius: 50%;
+}
+
+.resume-list {
+  text-align: center;
+  list-style-position: inside;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Roboto";
+  line-height: 150%;
+  font-size: 200%;
+}
+
+.copyright {
+  display: inline-block;
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  left: 40vw;
+  right: 40vw;
+  top: 85vh;
+}
+
+.about-p {
+  font-size: 150%;
+  line-height: 200%;
+  
+}
+
+
+
+.work-list-div {
+  display: inline-block;
+  margin:auto;
+  list-style-position: inside;
+  color: rgb(255, 255, 255);
+  font-family: "roboto";
+  line-height: 150%;
+  font-size: 120%;
+  text-align: center;
+  left: 50vw;
+  top: 25vh;
+  margin-right: 10vw;
+  position: absolute;
+}
+
+.resume-lorem {
+  text-align: center;
+  list-style-position: inside;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Roboto";
+  line-height: 150%;
+  font-size: 150%;
+  margin-left: 45vh;
+  margin-right: 45vh;
+  margin-top: 3vw;
+}
+
+.contact-info {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  top: 20vh;
+  left: 25vw;
+
 }
